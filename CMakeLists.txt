@@ -4,5 +4,5 @@ idf_component_register(
 	INCLUDE_DIRS
 		"include"
 	REQUIRES
-		pax_gfx
+		pax-gfx
 )
