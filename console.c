@@ -901,8 +901,7 @@ int console_handle_special_char(struct cons_insts_s *inst, char *c)
     {
       console_get_cursor(inst, &x, &y);
       console_set_cursor(inst, x - 1, y);
-      (*c) = ' ';
-      return 1;
+      return 0;
     }
 
     case '\t':
